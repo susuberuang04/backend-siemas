@@ -1,0 +1,62 @@
+# Abaikan file biner dan sementara
+*.tmp
+*.bak
+
+# Abaikan file kompilasi
+*.class
+*.o
+*.so
+*.exe
+
+# Abaikan file konfigurasi dan lingkungan pengembangan
+.DS_Store
+.vscode/
+.idea/
+
+
+# Abaikan direktori build dan distribusi
+/build/
+/dist/
+/node_modules/
+/coverage/
+
+# Abaikan file spesifik sistem operasi
+Thumbs.db
+.DS_Store
+
+# Abaikan file spesifik bahasa pemrograman
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.jar
+*.war
+*.ear
+
+# Node.js
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+
+# npm
+node_modules
+package-lock.json
+npm-shrinkwrap.json
+*.log
+*.gz
+src/app/controllers/kumpulan_link_drive
+src/public/foto-dokumentasi
+src/public/usulan-smart/dokumentasi
+src/public/usulan-smart/berkas
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore
+.env
